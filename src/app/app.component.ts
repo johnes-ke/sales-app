@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   showFiller = false;
+
+  menuItems: Array<{path: string, label: string}> = [
+      {
+        path: '/',
+        label: 'Home'
+      },
+      {
+        path: '/categories',
+        label: 'Categories'
+      },
+      {
+        path: '/suppliers',
+        label: 'Suppliers'
+      },
+    ]
 }
