@@ -6,20 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  showFiller = false;
+  title = "sales-app";
 
-  menuItems: Array<{path: string, label: string}> = [
-      {
-        path: '/',
-        label: 'Home'
-      },
-      {
-        path: '/categories',
-        label: 'Categories'
-      },
-      {
-        path: '/suppliers',
-        label: 'Suppliers'
-      },
-    ]
 }
